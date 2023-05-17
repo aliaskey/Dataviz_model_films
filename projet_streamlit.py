@@ -1,6 +1,6 @@
-import streamlit as st
 import numpy as np
 import pandas as pd
+import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
 import warnings
@@ -66,5 +66,3 @@ for idx, movie in rec_movies.iteritems():
         st.write(movie)
         poster_url = df.loc[df['title'] == movie, 'poster'].iloc[0]
         st.image(poster_url, width=150)
-
-    
