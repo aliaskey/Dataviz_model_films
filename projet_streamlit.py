@@ -1,7 +1,7 @@
-# import googletrans
-# from googletrans import Translator
+import googletrans
+from googletrans import Translator
 import plotly.express as px
-# from plotly.figure_factory import create_distplot
+from plotly.figure_factory import create_distplot
 import plotly.figure_factory as ff
 import streamlit as st
 import matplotlib.pyplot as plt
