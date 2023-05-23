@@ -13,8 +13,6 @@ import altair as alt
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
-import warnings
-import webbrowser
 import toml
 df = pd.read_csv('https://raw.githubusercontent.com/aliaskey/projet_Reco_films/main/data3.csv?token=GHSAT0AAAAAACCXIQFBVODZEVSKCKCKFI4WZDM4AKA')
 
