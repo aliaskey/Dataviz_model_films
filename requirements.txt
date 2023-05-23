@@ -14,7 +14,3 @@ beautifulsoup4==4.12.2
 pandas==2.0.1
 datetime2==0.9.4
 pairwise==0.1
-pycopy-warnings==0.1.4
-pycopy-webbrowser==0.0.0
-
-
