@@ -21,4 +21,5 @@ demand-sigmoid==0.1.6
 pairwise==0.1
 pycopy-warnings==0.1.4
 pycopy-webbrowser==0.0.0
-pytest-cov==2.12.1
+
+
