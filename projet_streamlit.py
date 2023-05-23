@@ -18,7 +18,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
 import warnings
 import webbrowser
-
+import toml
 df = pd.read_csv('https://raw.githubusercontent.com/aliaskey/projet_Reco_films/main/data3.csv?token=GHSAT0AAAAAACCXIQFBVODZEVSKCKCKFI4WZDM4AKA')
 
 ##################################################################################################################
@@ -193,8 +193,7 @@ elif selected_tab == "BDD":
     st.write(f"Nombre de lignes : {df.shape[0]:_d} lignes")
     st.write(f"Nombre de colonnes : {df.shape[1]} colonnes")
     st.write(df)
-    import streamlit as st
-    import toml
+
     # Charger les valeurs du fichier config.toml dans un dictionnaire
     config = toml.load("config.toml")
     # Définir les couleurs de l'application en utilisant les valeurs du fichier config.toml
