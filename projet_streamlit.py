@@ -12,7 +12,6 @@ import numpy as np
 import altair as alt
 from bs4 import BeautifulSoup
 import pandas as pd
-import io
 from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import sigmoid_kernel
