@@ -13,8 +13,6 @@ import altair as alt
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import sigmoid_kernel
 import warnings
 import webbrowser
 import toml
