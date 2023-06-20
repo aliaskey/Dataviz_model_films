@@ -1,6 +1,6 @@
 googletrans2==2.3.0
 numpy==1.23.5
-requests==2.30.0
+requests==2.31.0
 streamlit==1.22.0
 toml==0.10.2
 plotly.express==0.4.1
